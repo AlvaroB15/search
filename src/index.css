@@ -1,0 +1,62 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 60px;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    color: red;
+}
+
+/* Component AddCategory*/
+.input_search{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: green;
+    outline: none;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.buttonAdd{
+    border-radius: 15px;
+    background-color: blue;
+    border : 1px solid blue;
+    color: white;
+    width: 8%;
+}
+
+
+/* Component ShowCategory */
+.card-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Component CategoryItem */
+.card{
+    align-content: center;
+    border: 1px solid green;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.card p{
+    padding: 5px;
+    text-align: center;
+}
+
+.card img{
+    min-height: 170px;
+}
